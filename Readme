@@ -3,6 +3,7 @@
 鲍鱼年龄预测
 根据鲍鱼的八种特征预测鲍鱼年龄，具体哪八种详见官网http://archive.ics.uci.edu/ml/datasets/Abalone
 其中3500个为训练集，其余为测试集
+基于Keras
 
 模型：
 多层感知机
@@ -20,6 +21,7 @@ Problem Description:
 Abalone Age Prediction
 Predict the age of abalone based on eight characteristics of abalone. For details, please refer to the official website http://archive.ics.uci.edu/ml/datasets/Abalone
 3500 of them are training sets and the rest are test sets
+Based on Keras
 
 Model:
 Multilayer Perceptron（MLP）
