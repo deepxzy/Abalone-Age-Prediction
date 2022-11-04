@@ -1,0 +1,35 @@
+
+问题描述：
+鲍鱼年龄预测
+根据鲍鱼的八种特征预测鲍鱼年龄，具体哪八种详见官网http://archive.ics.uci.edu/ml/datasets/Abalone
+其中3500个为训练集，其余为测试集
+
+模型：
+多层感知机
+第一层 输入8输出16
+第二层 输入16输出16
+第三层 输入16输出1
+
+损失函数：MSE
+优化算法：ADAM
+评价指标 MAE 最后结果测试集1.5左右
+
+epochs=30,batch_size=20，learning_rate=0.01
+
+Problem Description:
+Abalone Age Prediction
+Predict the age of abalone based on eight characteristics of abalone. For details, please refer to the official website http://archive.ics.uci.edu/ml/datasets/Abalone
+3500 of them are training sets and the rest are test sets
+
+Model:
+Multilayer Perceptron（MLP）
+The first layer input 8 output 16
+Second layer input 16 output 16
+The third layer input 16 output 1
+
+Loss function: MSE
+Optimization algorithm: ADAM
+The MAE of the test set is about 1.5
+
+epochs=30, batch_size=20, learning_rate=0.01
+
